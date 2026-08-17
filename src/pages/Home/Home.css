@@ -1006,3 +1006,522 @@
     min-height: 350px !important;
   }
 }
+
+/* =========================================
+   WHY CHOOSE NEXORA
+========================================= */
+
+.why-section {
+  padding: 100px 40px;
+
+  background: #f8fafc;
+
+  border-top: 1px solid #eef2f7;
+}
+
+.why-container {
+  width: min(1180px, 100%);
+
+  margin: 0 auto;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.why-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 70px;
+
+  margin-bottom: 50px;
+}
+
+.why-header h2 {
+  margin: 11px 0 0;
+
+  color: #0f172a;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 42px;
+  line-height: 1.08;
+
+  letter-spacing: -1.8px;
+
+  font-weight: 800;
+}
+
+.why-header h2 span {
+  color: #64748b;
+}
+
+.why-header > p {
+  max-width: 390px;
+
+  margin: 0 0 3px;
+
+  color: #64748b;
+
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   MAIN CONTENT
+========================================= */
+
+.why-content {
+  display: grid;
+
+  grid-template-columns: 0.9fr 1.1fr;
+
+  gap: 18px;
+}
+
+
+/* =========================================
+   FEATURE PANEL
+========================================= */
+
+.why-feature-panel {
+  position: relative;
+
+  min-height: 500px;
+
+  padding: 30px;
+
+  overflow: hidden;
+
+  border-radius: 24px;
+
+  color: #ffffff;
+
+  background: #111827;
+
+  box-shadow:
+    0 25px 50px rgba(15, 23, 42, 0.13);
+}
+
+.why-feature-panel::before {
+  content: "";
+
+  position: absolute;
+
+  width: 280px;
+  height: 280px;
+
+  top: -100px;
+  right: -90px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.why-feature-panel::after {
+  content: "";
+
+  position: absolute;
+
+  width: 180px;
+  height: 180px;
+
+  bottom: -80px;
+  left: -60px;
+
+  border-radius: 50%;
+
+  background: rgba(148, 163, 184, 0.08);
+}
+
+
+/* =========================================
+   PANEL TOP
+========================================= */
+
+.feature-panel-top {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature-label {
+  color: #94a3b8;
+
+  font-size: 8px;
+  font-weight: 800;
+
+  letter-spacing: 1.6px;
+}
+
+.feature-panel-icon {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  border-radius: 12px;
+
+  color: #ffffff;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  font-size: 13px;
+}
+
+
+/* =========================================
+   PANEL CONTENT
+========================================= */
+
+.feature-panel-content {
+  position: relative;
+  z-index: 2;
+
+  margin-top: 85px;
+}
+
+.feature-panel-content h3 {
+  margin: 0;
+
+  font-family: "Manrope", sans-serif;
+
+  color: #ffffff;
+
+  font-size: 31px;
+  line-height: 1.18;
+
+  letter-spacing: -1.2px;
+
+  font-weight: 800;
+}
+
+.feature-panel-content h3 span {
+  color: #94a3b8;
+}
+
+.feature-panel-content p {
+  max-width: 370px;
+
+  margin-top: 18px;
+
+  color: #94a3b8;
+
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+
+/* =========================================
+   LEARNING JOURNEY
+========================================= */
+
+.learning-journey {
+  position: absolute;
+
+  z-index: 3;
+
+  left: 30px;
+  right: 30px;
+  bottom: 28px;
+}
+
+.journey-line {
+  position: absolute;
+
+  top: 15px;
+  left: 15px;
+  right: 15px;
+
+  height: 1px;
+
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.journey-item {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+
+  margin-bottom: 17px;
+}
+
+.journey-item:last-child {
+  margin-bottom: 0;
+}
+
+.journey-number {
+  width: 31px;
+  height: 31px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  border-radius: 9px;
+
+  color: #64748b;
+
+  background: #111827;
+
+  font-size: 8px;
+  font-weight: 800;
+}
+
+.journey-number.active {
+  color: #111827;
+
+  background: #ffffff;
+
+  border-color: #ffffff;
+}
+
+.journey-item > div:last-child {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2px;
+}
+
+.journey-item strong {
+  color: #ffffff;
+
+  font-size: 10px;
+}
+
+.journey-item span {
+  color: #64748b;
+
+  font-size: 8px;
+}
+
+
+/* =========================================
+   RIGHT FEATURE CARDS
+========================================= */
+
+.why-features {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 18px;
+}
+
+.why-card {
+  position: relative;
+
+  min-height: 240px;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 25px;
+
+  border: 1px solid #e2e8f0;
+
+  border-radius: 20px;
+
+  background: #ffffff;
+
+  overflow: hidden;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-5px);
+
+  border-color: #cbd5e1;
+
+  box-shadow:
+    0 18px 38px rgba(15, 23, 42, 0.08);
+}
+
+
+/* =========================================
+   CARD ICON
+========================================= */
+
+.why-card-icon {
+  width: 43px;
+  height: 43px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 12px;
+
+  color: #ffffff;
+
+  background: #111827;
+
+  font-size: 13px;
+
+  box-shadow:
+    0 8px 18px rgba(15, 23, 42, 0.12);
+}
+
+
+/* =========================================
+   CARD CONTENT
+========================================= */
+
+.why-card-content {
+  margin-top: 27px;
+}
+
+.why-card-content > span {
+  color: #cbd5e1;
+
+  font-size: 8px;
+  font-weight: 800;
+
+  letter-spacing: 1px;
+}
+
+.why-card-content h3 {
+  margin: 7px 0 0;
+
+  color: #0f172a;
+
+  font-family: "Manrope", sans-serif;
+
+  font-size: 17px;
+
+  letter-spacing: -0.5px;
+
+  font-weight: 800;
+}
+
+.why-card-content p {
+  margin: 9px 0 0;
+
+  color: #64748b;
+
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+
+/* =========================================
+   ARROW
+========================================= */
+
+.why-card-arrow {
+  position: absolute;
+
+  right: 23px;
+  bottom: 23px;
+
+  color: #cbd5e1;
+
+  font-size: 10px;
+
+  transition:
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.why-card:hover .why-card-arrow {
+  color: #111827;
+
+  transform: translateX(4px);
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 950px) {
+
+  .why-section {
+    padding: 75px 30px;
+  }
+
+  .why-header {
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    gap: 20px;
+  }
+
+  .why-header > p {
+    max-width: 600px;
+  }
+
+  .why-content {
+    grid-template-columns: 1fr;
+  }
+
+  .why-feature-panel {
+    min-height: 470px;
+  }
+
+}
+
+
+@media (max-width: 650px) {
+
+  .why-section {
+    padding: 60px 18px;
+  }
+
+  .why-header h2 {
+    font-size: 32px;
+  }
+
+  .why-features {
+    grid-template-columns: 1fr;
+  }
+
+  .why-card {
+    min-height: 210px;
+  }
+
+  .why-feature-panel {
+    min-height: 520px;
+
+    padding: 23px;
+  }
+
+  .feature-panel-content {
+    margin-top: 65px;
+  }
+
+  .feature-panel-content h3 {
+    font-size: 27px;
+  }
+
+  .learning-journey {
+    left: 23px;
+    right: 23px;
+  }
+
+}

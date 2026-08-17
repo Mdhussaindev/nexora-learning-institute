@@ -285,6 +285,240 @@ function Home() {
 
       </section>
 
+      {/* =========================
+    WHY CHOOSE NEXORA
+========================= */}
+
+<section className="why-section">
+  <div className="why-container">
+
+    {/* SECTION HEADER */}
+    <div className="why-header">
+
+      <div>
+        <span className="section-eyebrow">
+          THE NEXORA DIFFERENCE
+        </span>
+
+        <h2>
+          More than courses.
+          <br />
+          <span>A better way to learn.</span>
+        </h2>
+      </div>
+
+      <p>
+        We combine practical learning, expert guidance, and
+        career-focused education to help students turn knowledge
+        into real-world skills.
+      </p>
+
+    </div>
+
+
+    {/* MAIN CONTENT */}
+    <div className="why-content">
+
+      {/* LEFT FEATURE PANEL */}
+      <div className="why-feature-panel">
+
+        <div className="feature-panel-top">
+
+          <span className="feature-label">
+            BUILT AROUND YOU
+          </span>
+
+          <div className="feature-panel-icon">
+            <RiseOutlined />
+          </div>
+
+        </div>
+
+        <div className="feature-panel-content">
+
+          <h3>
+            Learn skills that
+            <br />
+            <span>create opportunities.</span>
+          </h3>
+
+          <p>
+            Nexora focuses on practical, structured learning so
+            you can move from understanding concepts to confidently
+            building real projects.
+          </p>
+
+        </div>
+
+
+        {/* JOURNEY */}
+        <div className="learning-journey">
+
+          <div className="journey-line"></div>
+
+          <div className="journey-item">
+
+            <div className="journey-number">
+              01
+            </div>
+
+            <div>
+              <strong>Learn</strong>
+              <span>Master the fundamentals</span>
+            </div>
+
+          </div>
+
+
+          <div className="journey-item">
+
+            <div className="journey-number">
+              02
+            </div>
+
+            <div>
+              <strong>Build</strong>
+              <span>Turn knowledge into projects</span>
+            </div>
+
+          </div>
+
+
+          <div className="journey-item">
+
+            <div className="journey-number active">
+              03
+            </div>
+
+            <div>
+              <strong>Grow</strong>
+              <span>Build confidence for your career</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      {/* RIGHT FEATURES */}
+      <div className="why-features">
+
+        {/* FEATURE 1 */}
+        <div className="why-card">
+
+          <div className="why-card-icon">
+            <BookOutlined />
+          </div>
+
+          <div className="why-card-content">
+
+            <span>01</span>
+
+            <h3>
+              Learn by Building
+            </h3>
+
+            <p>
+              Go beyond theory with practical exercises,
+              projects, and real-world problem solving.
+            </p>
+
+          </div>
+
+          <ArrowRightOutlined className="why-card-arrow" />
+
+        </div>
+
+
+        {/* FEATURE 2 */}
+        <div className="why-card">
+
+          <div className="why-card-icon">
+            <ThunderboltFilled />
+          </div>
+
+          <div className="why-card-content">
+
+            <span>02</span>
+
+            <h3>
+              Expert Instructors
+            </h3>
+
+            <p>
+              Learn from professionals who understand the
+              skills and standards of today's industry.
+            </p>
+
+          </div>
+
+          <ArrowRightOutlined className="why-card-arrow" />
+
+        </div>
+
+
+        {/* FEATURE 3 */}
+        <div className="why-card">
+
+          <div className="why-card-icon">
+            <RiseOutlined />
+          </div>
+
+          <div className="why-card-content">
+
+            <span>03</span>
+
+            <h3>
+              Career Focused
+            </h3>
+
+            <p>
+              Develop relevant skills that help you become
+              more confident and career-ready.
+            </p>
+
+          </div>
+
+          <ArrowRightOutlined className="why-card-arrow" />
+
+        </div>
+
+
+        {/* FEATURE 4 */}
+        <div className="why-card">
+
+          <div className="why-card-icon">
+            <CheckCircleFilled />
+          </div>
+
+          <div className="why-card-content">
+
+            <span>04</span>
+
+            <h3>
+              Modern Curriculum
+            </h3>
+
+            <p>
+              Stay aligned with modern tools, technologies,
+              and practical industry expectations.
+            </p>
+
+          </div>
+
+          <ArrowRightOutlined className="why-card-arrow" />
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
     </main>
   );
 }

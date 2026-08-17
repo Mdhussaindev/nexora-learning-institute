@@ -953,3 +953,56 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+/* =========================================
+   FINAL HERO SPACING FIX
+========================================= */
+
+.hero-section {
+  padding-top: 28px !important;
+  padding-bottom: 15px !important;
+}
+
+.hero-container {
+  min-height: 430px !important;
+  height: auto !important;
+  margin-bottom: 0 !important;
+}
+
+.hero-content {
+  transform: translateY(-10px) !important;
+}
+
+.hero-visual {
+  min-height: 390px !important;
+  height: auto !important;
+}
+
+.featured-courses-section {
+  padding-top: 55px !important;
+  padding-bottom: 75px !important;
+}
+
+/* Remove unwanted vertical spacing */
+.featured-courses-section .section-container {
+  margin-top: 0 !important;
+}
+
+/* =========================================
+   DESKTOP
+========================================= */
+
+@media (min-width: 951px) {
+  .hero-container {
+    align-items: center;
+  }
+
+  .hero-visual {
+    min-height: 390px !important;
+  }
+
+  .learning-dashboard {
+    min-height: 350px !important;
+  }
+}

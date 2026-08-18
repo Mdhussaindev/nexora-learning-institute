@@ -8,6 +8,7 @@ import Courses from "./pages/Courses/Courses";
 import CourseDetails from "./pages/CourseDetails/CourseDetails";
 import Instructors from "./pages/Instructors/Instructors";
 import InstructorDetails from "./pages/InstructorDetails/InstructorDetails";
+import Contact from "./pages/Contact/Contact";
 
 import "./App.css";
 
@@ -32,6 +33,8 @@ function App() {
         <Route path="/instructors" element={<Instructors />} />
 
        <Route path="/instructors/:id" element={<InstructorDetails />} />
+
+       <Route path="/contact" element={<Contact />} />
 
       </Routes>
 

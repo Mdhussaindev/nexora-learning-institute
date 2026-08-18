@@ -1,7 +1,3 @@
-/* =========================================
-   ABOUT PAGE
-========================================= */
-
 .about-page {
   background: #ffffff;
   color: #0f172a;
@@ -22,11 +18,6 @@
 
   letter-spacing: 1.8px;
 }
-
-
-/* =========================================
-   HERO
-========================================= */
 
 .about-hero {
   padding: 75px 0 90px;
@@ -90,8 +81,6 @@
 }
 
 
-/* HERO META */
-
 .about-hero-meta {
   display: flex;
 
@@ -123,10 +112,6 @@
 }
 
 
-/* =========================================
-   HERO VISUAL
-========================================= */
-
 .about-hero-visual {
   position: relative;
 
@@ -154,7 +139,6 @@
   width: 290px;
   height: 290px;
 }
-
 
 .about-main-card {
   position: relative;
@@ -266,11 +250,6 @@
   line-height: 1.6;
 }
 
-
-/* =========================================
-   INTRODUCTION
-========================================= */
-
 .about-introduction {
   padding: 110px 0;
 
@@ -331,11 +310,6 @@
 
   margin-bottom: 17px;
 }
-
-
-/* =========================================
-   MISSION / VISION
-========================================= */
 
 .mission-section {
   padding: 90px 0;
@@ -447,10 +421,6 @@
 }
 
 
-/* =========================================
-   STATS
-========================================= */
-
 .about-stats {
   padding: 100px 0;
 }
@@ -523,10 +493,6 @@
   font-size: 9px;
 }
 
-
-/* =========================================
-   STUDENT CHOICE
-========================================= */
 
 .student-choice-section {
   padding: 100px 0;
@@ -656,10 +622,6 @@
 }
 
 
-/* =========================================
-   CTA
-========================================= */
-
 .about-cta {
   padding: 90px 0;
 }
@@ -740,10 +702,6 @@
 }
 
 
-/* =========================================
-   RESPONSIVE
-========================================= */
-
 @media (max-width: 950px) {
 
   .about-container {
@@ -803,7 +761,6 @@
     gap: 35px;
   }
 }
-
 
 @media (max-width: 600px) {
 
@@ -906,33 +863,27 @@
   }
 }
 
-/* =========================================
-   ABOUT PAGE — SPACING REFINEMENT
-   Keep original design, only reduce gaps
-========================================= */
-
-/* Hero: navbar ke neeche extra gap reduce */
 .about-hero {
   padding: 30px 0 55px;
 }
 
-/* Hero ki total height reduce */
+
 .about-hero .about-container {
   min-height: 410px;
   gap: 55px;
 }
 
-/* Right visual ko unnecessarily tall na rakho */
+
 .about-hero-visual {
   min-height: 360px;
 }
 
-/* Introduction */
+
 .about-introduction {
   padding: 75px 0;
 }
 
-/* Mission / Vision */
+
 .mission-section {
   padding: 65px 0;
 }
@@ -945,7 +896,7 @@
   margin-top: 50px;
 }
 
-/* Statistics */
+
 .about-stats {
   padding: 75px 0;
 }
@@ -954,7 +905,6 @@
   margin-bottom: 38px;
 }
 
-/* Why students choose us */
 .student-choice-section {
   padding: 75px 0;
 }
@@ -963,7 +913,6 @@
   margin-bottom: 38px;
 }
 
-/* CTA */
 .about-cta {
   padding: 65px 0;
 }
@@ -973,11 +922,6 @@
   padding: 35px 45px;
 }
 
-/* =========================================
-   PREMIUM CARD HOVER EFFECTS
-========================================= */
-
-/* Mission + Vision Cards */
 .mission-card {
   transition:
     transform 0.3s ease,
@@ -990,15 +934,10 @@
     0 25px 55px rgba(15, 23, 42, 0.14);
 }
 
-/* Vision card slightly stronger border on hover */
+
 .vision-card:hover {
   border-color: #cbd5e1;
 }
-
-
-/* =========================================
-   STATISTICS HOVER
-========================================= */
 
 .about-stat {
   position: relative;
@@ -1022,11 +961,6 @@
   transform: translateX(4px);
 }
 
-
-/* =========================================
-   WHY STUDENTS CHOOSE US
-========================================= */
-
 .choice-item {
   position: relative;
 
@@ -1039,7 +973,7 @@
   background: #f8fafc;
 }
 
-/* Icon animation */
+
 .choice-icon {
   transition:
     transform 0.3s ease,
@@ -1051,10 +985,6 @@
 }
 
 
-/* =========================================
-   MISSION / VISION ICON
-========================================= */
-
 .mission-icon {
   transition:
     transform 0.3s ease,
@@ -1065,11 +995,6 @@
   transform: translateY(-3px);
 }
 
-
-/* =========================================
-   CTA BUTTON
-   Already had hover — keeping it premium
-========================================= */
 
 .about-cta-box a {
   transition:
@@ -1087,9 +1012,6 @@
     0 12px 28px rgba(255, 255, 255, 0.15);
 }
 
-/* =========================================
-   NEXORA BY THE NUMBERS — LEFT ALIGN
-========================================= */
 
 .about-stats-header {
   display: flex;
@@ -1111,10 +1033,6 @@
   margin: 0;
   text-align: left;
 }
-
-/* =========================================
-   NEXORA BY THE NUMBERS — TITLE STYLE
-========================================= */
 
 .about-stats-header h2 {
   text-align: left;

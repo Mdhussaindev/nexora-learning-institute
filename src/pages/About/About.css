@@ -905,3 +905,223 @@
     font-size: 34px;
   }
 }
+
+/* =========================================
+   ABOUT PAGE — SPACING REFINEMENT
+   Keep original design, only reduce gaps
+========================================= */
+
+/* Hero: navbar ke neeche extra gap reduce */
+.about-hero {
+  padding: 30px 0 55px;
+}
+
+/* Hero ki total height reduce */
+.about-hero .about-container {
+  min-height: 410px;
+  gap: 55px;
+}
+
+/* Right visual ko unnecessarily tall na rakho */
+.about-hero-visual {
+  min-height: 360px;
+}
+
+/* Introduction */
+.about-introduction {
+  padding: 75px 0;
+}
+
+/* Mission / Vision */
+.mission-section {
+  padding: 65px 0;
+}
+
+.mission-card {
+  min-height: 300px;
+}
+
+.mission-card h3 {
+  margin-top: 50px;
+}
+
+/* Statistics */
+.about-stats {
+  padding: 75px 0;
+}
+
+.about-stats-header {
+  margin-bottom: 38px;
+}
+
+/* Why students choose us */
+.student-choice-section {
+  padding: 75px 0;
+}
+
+.student-choice-header {
+  margin-bottom: 38px;
+}
+
+/* CTA */
+.about-cta {
+  padding: 65px 0;
+}
+
+.about-cta-box {
+  min-height: 190px;
+  padding: 35px 45px;
+}
+
+/* =========================================
+   PREMIUM CARD HOVER EFFECTS
+========================================= */
+
+/* Mission + Vision Cards */
+.mission-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 25px 55px rgba(15, 23, 42, 0.14);
+}
+
+/* Vision card slightly stronger border on hover */
+.vision-card:hover {
+  border-color: #cbd5e1;
+}
+
+
+/* =========================================
+   STATISTICS HOVER
+========================================= */
+
+.about-stat {
+  position: relative;
+
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.about-stat:hover {
+  background: #f8fafc;
+}
+
+.about-stat strong {
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
+}
+
+.about-stat:hover strong {
+  transform: translateX(4px);
+}
+
+
+/* =========================================
+   WHY STUDENTS CHOOSE US
+========================================= */
+
+.choice-item {
+  position: relative;
+
+  transition:
+    background 0.3s ease,
+    transform 0.3s ease;
+}
+
+.choice-item:hover {
+  background: #f8fafc;
+}
+
+/* Icon animation */
+.choice-icon {
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.choice-item:hover .choice-icon {
+  transform: translateY(-3px);
+}
+
+
+/* =========================================
+   MISSION / VISION ICON
+========================================= */
+
+.mission-icon {
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.mission-card:hover .mission-icon {
+  transform: translateY(-3px);
+}
+
+
+/* =========================================
+   CTA BUTTON
+   Already had hover — keeping it premium
+========================================= */
+
+.about-cta-box a {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background 0.25s ease;
+}
+
+.about-cta-box a:hover {
+  transform: translateY(-3px);
+
+  background: #f1f5f9;
+
+  box-shadow:
+    0 12px 28px rgba(255, 255, 255, 0.15);
+}
+
+/* =========================================
+   NEXORA BY THE NUMBERS — LEFT ALIGN
+========================================= */
+
+.about-stats-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.about-stats-header .section-eyebrow {
+  width: auto;
+  margin: 0 0 14px;
+  text-align: left;
+}
+
+.about-stats-header h2 {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+/* =========================================
+   NEXORA BY THE NUMBERS — TITLE STYLE
+========================================= */
+
+.about-stats-header h2 {
+  text-align: left;
+  line-height: 1.05;
+}
+
+.about-stats-header h2 span {
+  display: block;
+  color: #718096;
+}

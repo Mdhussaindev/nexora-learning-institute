@@ -1,0 +1,81 @@
+const instructors = [
+  {
+    id: 1,
+    name: "Dr. Sarah Mitchell",
+    role: "Senior Software Engineer",
+    expertise: "React & Frontend Development",
+    experience: "10+ Years",
+    students: "2.8K+",
+    rating: "4.9",
+    image: "https://i.pravatar.cc/600?img=47",
+    bio: "Sarah is a passionate software engineer and educator specializing in modern frontend development, React architecture, and scalable user interfaces.",
+    skills: ["React", "JavaScript", "TypeScript", "UI Architecture"],
+  },
+
+  {
+    id: 2,
+    name: "James Anderson",
+    role: "Full Stack Developer",
+    expertise: "MERN Stack Development",
+    experience: "8+ Years",
+    students: "2.1K+",
+    rating: "4.8",
+    image: "https://i.pravatar.cc/600?img=12",
+    bio: "James helps students master full-stack development through practical projects, clean architecture, and real-world development workflows.",
+    skills: ["MongoDB", "Express", "React", "Node.js"],
+  },
+
+  {
+    id: 3,
+    name: "Emily Carter",
+    role: "UI/UX Design Lead",
+    expertise: "Product & UI/UX Design",
+    experience: "7+ Years",
+    students: "1.9K+",
+    rating: "4.9",
+    image: "https://i.pravatar.cc/600?img=44",
+    bio: "Emily is a product designer focused on creating intuitive digital experiences and helping students develop strong design thinking skills.",
+    skills: ["Figma", "UI Design", "UX Research", "Prototyping"],
+  },
+
+  {
+    id: 4,
+    name: "Michael Roberts",
+    role: "Data Science Instructor",
+    expertise: "Python & Data Science",
+    experience: "9+ Years",
+    students: "2.4K+",
+    rating: "4.8",
+    image: "https://i.pravatar.cc/600?img=11",
+    bio: "Michael combines academic knowledge with industry experience to teach Python, data analysis, and practical machine learning.",
+    skills: ["Python", "Pandas", "Machine Learning", "SQL"],
+  },
+
+  {
+    id: 5,
+    name: "Daniel Wilson",
+    role: "Cloud & DevOps Engineer",
+    expertise: "Cloud Computing & DevOps",
+    experience: "8+ Years",
+    students: "1.7K+",
+    rating: "4.9",
+    image: "https://i.pravatar.cc/600?img=13",
+    bio: "Daniel specializes in cloud infrastructure, DevOps practices, and modern deployment workflows.",
+    skills: ["AWS", "Docker", "DevOps", "CI/CD"],
+  },
+
+  {
+    id: 6,
+    name: "Sophia Williams",
+    role: "Digital Marketing Strategist",
+    expertise: "Digital Marketing & SEO",
+    experience: "7+ Years",
+    students: "1.6K+",
+    rating: "4.8",
+    image: "https://i.pravatar.cc/600?img=32",
+    bio: "Sophia teaches modern digital marketing strategies with a strong focus on SEO, content strategy, analytics, and brand growth.",
+    skills: ["SEO", "Analytics", "Content", "Strategy"],
+  },
+];
+
+export default instructors;

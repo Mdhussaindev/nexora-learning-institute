@@ -5,6 +5,9 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Courses from "./pages/Courses/Courses";
+import CourseDetails from "./pages/CourseDetails/CourseDetails";
+import Instructors from "./pages/Instructors/Instructors";
+import InstructorDetails from "./pages/InstructorDetails/InstructorDetails";
 
 import "./App.css";
 
@@ -23,6 +26,12 @@ function App() {
         <Route path="/about" element={<About />} />
 
         <Route path="/courses" element={<Courses />} />
+
+        <Route path="/courses/:id" element={<CourseDetails />} />
+
+        <Route path="/instructors" element={<Instructors />} />
+
+       <Route path="/instructors/:id" element={<InstructorDetails />} />
 
       </Routes>
 

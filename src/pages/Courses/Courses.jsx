@@ -388,85 +388,183 @@
 
 // export default Courses;
 
-const courses = [
-  {
-    id: 1,
-    name: "Full Stack Development",
-    shortName: "Full Stack",
-    description:
-      "Build modern web applications from frontend interfaces to powerful backend systems.",
-    duration: "6 Months",
-    level: "Intermediate",
-    category: "Development",
-    icon: "⌘",
-    featured: true,
-  },
+import { ArrowRightOutlined, BookOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 
-  {
-    id: 2,
-    name: "React JS",
-    shortName: "React JS",
-    description:
-      "Master component-based development and create scalable modern React applications.",
-    duration: "10 Weeks",
-    level: "Intermediate",
-    category: "Development",
-    icon: "⚛",
-    featured: true,
-  },
+import CourseCard from "../../components/CourseCard/CourseCard";
+import courses from "../../data/courses";
 
-  {
-    id: 3,
-    name: "UI/UX Design",
-    shortName: "UI / UX",
-    description:
-      "Learn to design intuitive digital experiences using modern design principles.",
-    duration: "12 Weeks",
-    level: "Beginner",
-    category: "Design",
-    icon: "✦",
-    featured: true,
-  },
+import "./Courses.css";
 
-  {
-    id: 4,
-    name: "Python Programming",
-    shortName: "Python",
-    description:
-      "Learn Python fundamentals and develop a strong foundation for modern programming.",
-    duration: "14 Weeks",
-    level: "Beginner",
-    category: "Programming",
-    icon: "λ",
-    featured: false,
-  },
+function Courses() {
+  return (
+    <main className="courses-page">
 
-  {
-    id: 5,
-    name: "JavaScript",
-    shortName: "JavaScript",
-    description:
-      "Build a strong JavaScript foundation and create interactive web experiences.",
-    duration: "12 Weeks",
-    level: "Intermediate",
-    category: "Development",
-    icon: "JS",
-    featured: false,
-  },
+      {/* =========================================
+          COURSES HERO
+      ========================================= */}
+      <section className="courses-hero">
+        <div className="courses-container">
 
-  {
-    id: 6,
-    name: "Digital Marketing",
-    shortName: "Marketing",
-    description:
-      "Understand modern digital marketing strategies, content, SEO and growth.",
-    duration: "10 Weeks",
-    level: "Beginner",
-    category: "Marketing",
-    icon: "↗",
-    featured: false,
-  },
-];
+          <div className="courses-hero-content">
 
-export default courses;
+            <span className="courses-eyebrow">
+              NEXORA LEARNING
+            </span>
 
+            <h1 className="courses-title">
+              Learn skills that
+              <span>move you forward.</span>
+            </h1>
+
+            <p className="courses-description">
+              Explore practical, career-focused courses designed to help
+              you build valuable skills, create real projects, and grow
+              with confidence.
+            </p>
+
+            <div className="courses-hero-meta">
+
+              <div className="hero-meta-item">
+                <strong>25+</strong>
+                <span>Courses</span>
+              </div>
+
+              <div className="hero-meta-divider"></div>
+
+              <div className="hero-meta-item">
+                <strong>40+</strong>
+                <span>Experts</span>
+              </div>
+
+              <div className="hero-meta-divider"></div>
+
+              <div className="hero-meta-item">
+                <strong>10K+</strong>
+                <span>Learners</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          {/* HERO VISUAL */}
+          <div className="courses-hero-visual">
+
+            <div className="course-orbit"></div>
+
+            <div className="course-feature-card">
+
+              <div className="feature-card-top">
+                <span>FEATURED PATH</span>
+
+                <div className="feature-icon">
+                  <BookOutlined />
+                </div>
+              </div>
+
+              <div className="feature-card-content">
+                <span>START BUILDING</span>
+
+                <h3>
+                  From learning
+                  <br />
+                  to creating.
+                </h3>
+              </div>
+
+              <div className="feature-card-bottom">
+                <span>Practical learning</span>
+
+                <div className="feature-line">
+                  <span></span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      {/* =========================================
+          COURSE CATALOG
+      ========================================= */}
+      <section className="course-catalog">
+
+        <div className="courses-container">
+
+          <div className="catalog-header">
+
+            <div>
+              <span className="section-eyebrow">
+                COURSE CATALOG
+              </span>
+
+              <h2>
+                Find your next
+                <span>skill to master.</span>
+              </h2>
+            </div>
+
+            <p>
+              Choose from carefully designed programs built around
+              practical skills and real-world outcomes.
+            </p>
+
+          </div>
+
+
+          {/* COURSE GRID */}
+          <div className="courses-grid">
+
+            {courses.map((course) => (
+              <div className="course-card-wrapper" key={course.id}>
+                <CourseCard course={course} />
+              </div>
+            ))}
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      {/* =========================================
+          BOTTOM CTA
+      ========================================= */}
+      <section className="courses-cta">
+
+        <div className="courses-container">
+
+          <div className="courses-cta-box">
+
+            <div>
+              <span>READY TO START?</span>
+
+              <h2>
+                Your next skill
+                <br />
+                starts here.
+              </h2>
+            </div>
+
+            <Link to="/contact" className="courses-cta-button">
+              Get Started
+              <ArrowRightOutlined />
+            </Link>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+  );
+}
+
+export default Courses;

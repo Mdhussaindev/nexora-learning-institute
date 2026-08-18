@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
+import Courses from "./pages/Courses/Courses";
 
 import "./App.css";
 
@@ -20,6 +21,8 @@ function App() {
 
         {/* About */}
         <Route path="/about" element={<About />} />
+
+        <Route path="/courses" element={<Courses />} />
 
       </Routes>
 

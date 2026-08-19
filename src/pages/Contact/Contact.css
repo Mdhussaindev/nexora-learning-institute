@@ -701,3 +701,39 @@
     padding: 20px;
   }
 }
+
+.form-error {
+  color: #ef4444;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.input-error {
+  border-color: #ef4444 !important;
+  background: #fffafa !important;
+}
+
+.input-error:focus {
+  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.08) !important;
+}
+
+.contact-submit-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.75;
+  transform: none;
+}
+
+.submit-spinner {
+  width: 15px;
+  height: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: contactSpinner 0.7s linear infinite;
+}
+
+@keyframes contactSpinner {
+  to {
+    transform: rotate(360deg);
+  }
+}

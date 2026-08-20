@@ -11,6 +11,7 @@ import CourseDetails from "./pages/CourseDetails/CourseDetails";
 import Instructors from "./pages/Instructors/Instructors";
 import InstructorDetails from "./pages/InstructorDetails/InstructorDetails";
 import Contact from "./pages/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 import "./App.css";
 
@@ -60,7 +61,7 @@ function App() {
         />
 
       </Routes>
-
+     <Footer />
     </BrowserRouter>
   );
 }

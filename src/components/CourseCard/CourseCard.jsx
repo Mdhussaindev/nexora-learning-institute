@@ -14,7 +14,7 @@ import {
 import "./CourseCard.css";
 
 const CourseCard = ({ course }) => {
-  // Choose icon according to course category/title
+
   const getCourseIcon = () => {
     const text = `${course.category || ""} ${course.title || ""}`.toLowerCase();
 
@@ -56,9 +56,6 @@ const CourseCard = ({ course }) => {
   return (
     <article className="course-card">
 
-      {/* =========================
-          TOP AREA
-      ========================== */}
 
       <div className="course-card-top">
 
@@ -72,10 +69,6 @@ const CourseCard = ({ course }) => {
 
       </div>
 
-
-      {/* =========================
-          COURSE CONTENT
-      ========================== */}
 
       <div className="course-card-content">
 
@@ -93,10 +86,6 @@ const CourseCard = ({ course }) => {
 
       </div>
 
-
-      {/* =========================
-          COURSE META
-      ========================== */}
 
       <div className="course-meta">
 
@@ -118,10 +107,6 @@ const CourseCard = ({ course }) => {
 
       </div>
 
-
-      {/* =========================
-          CARD FOOTER
-      ========================== */}
 
       <div className="course-card-footer">
 

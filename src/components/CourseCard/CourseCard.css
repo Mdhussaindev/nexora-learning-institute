@@ -1,6 +1,3 @@
-/* ========================================
-   COURSE CARD
-======================================== */
 
 .course-card {
   position: relative;
@@ -31,10 +28,6 @@
 }
 
 
-/* ========================================
-   SUBTLE CARD GLOW
-======================================== */
-
 .course-card::before {
   content: "";
 
@@ -60,10 +53,6 @@
 }
 
 
-/* ========================================
-   HOVER
-======================================== */
-
 .course-card:hover {
   transform: translateY(-8px);
 
@@ -78,10 +67,6 @@
 }
 
 
-/* ========================================
-   TOP
-======================================== */
-
 .course-card-top {
   display: flex;
 
@@ -91,10 +76,6 @@
   margin-bottom: 25px;
 }
 
-
-/* ========================================
-   COURSE ICON
-======================================== */
 
 .course-icon {
   width: 52px;
@@ -131,10 +112,6 @@
 }
 
 
-/* ========================================
-   COURSE NUMBER
-======================================== */
-
 .course-number {
   width: 36px;
   height: 36px;
@@ -170,16 +147,9 @@
 }
 
 
-/* ========================================
-   CONTENT
-======================================== */
-
 .course-card-content {
   flex: 1;
 }
-
-
-/* CATEGORY */
 
 .course-category {
   display: inline-block;
@@ -196,9 +166,6 @@
 
   text-transform: uppercase;
 }
-
-
-/* TITLE */
 
 .course-title {
   margin: 0 0 11px;
@@ -221,8 +188,6 @@
 }
 
 
-/* DESCRIPTION */
-
 .course-description {
   display: -webkit-box;
 
@@ -239,11 +204,6 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
-
-
-/* ========================================
-   META
-======================================== */
 
 .course-meta {
   display: flex;
@@ -279,17 +239,9 @@
   font-size: 14px;
 }
 
-
-/* ========================================
-   FOOTER
-======================================== */
-
 .course-card-footer {
   margin-top: 20px;
 }
-
-
-/* DETAILS LINK */
 
 .course-details-link {
   display: flex;
@@ -315,9 +267,6 @@
 .course-details-link:hover {
   color: #6366f1;
 }
-
-
-/* ARROW */
 
 .course-arrow {
   width: 34px;
@@ -354,10 +303,6 @@
   color: #ffffff;
 }
 
-
-/* ========================================
-   RESPONSIVE
-======================================== */
 
 @media (max-width: 1100px) {
   .course-card {

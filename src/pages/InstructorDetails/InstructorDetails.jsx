@@ -3,7 +3,6 @@ import {
   ArrowRightOutlined,
   CheckCircleFilled,
   ClockCircleOutlined,
-  SafetyCertificateOutlined,
   UserOutlined,
 } from "@ant-design/icons";
 

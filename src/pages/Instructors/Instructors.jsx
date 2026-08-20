@@ -11,10 +11,6 @@ const Instructors = () => {
   return (
     <main className="instructors-page">
 
-      {/* =========================
-          HERO SECTION
-      ========================== */}
-
       <section className="instructors-hero">
 
         <div className="instructors-hero-glow glow-one"></div>
@@ -60,11 +56,6 @@ const Instructors = () => {
         </div>
       </section>
 
-
-      {/* =========================
-          INSTRUCTORS SECTION
-      ========================== */}
-
       <section className="instructors-section">
 
         <div className="instructors-section-heading">
@@ -102,10 +93,6 @@ const Instructors = () => {
 
       </section>
 
-
-      {/* =========================
-          CTA SECTION
-      ========================== */}
 
       <section className="instructors-cta">
 

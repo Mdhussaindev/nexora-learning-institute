@@ -1,45 +1,3 @@
-// import React from "react";
-// import "./Courses.css";
-
-// function Courses() {
-//   return (
-//     <main className="courses-page">
-//       <section className="courses-hero">
-//         <div className="courses-container">
-//           <div className="courses-hero-content">
-//             <div className="courses-eyebrow">
-//               Learn. Build. Grow.
-//             </div>
-
-//             <h1>
-//               Explore courses designed
-//               <span> for what comes next.</span>
-//             </h1>
-
-//             <p>
-//               Build practical skills through carefully designed courses,
-//               expert guidance, and learning experiences focused on real-world
-//               growth.
-//             </p>
-//           </div>
-
-//           <div className="courses-hero-card">
-//             <span>YOUR LEARNING PATH</span>
-
-//             <h3>Build your next skill</h3>
-
-//             <p>
-//               Choose a practical course and move one step closer to your
-//               career goals.
-//             </p>
-//           </div>
-//         </div>
-//       </section>
-//     </main>
-//   );
-// }
-
-// export default Courses;
 
 import {
   ArrowLeftOutlined,
@@ -66,7 +24,6 @@ function CourseDetails() {
     (item) => String(item.id) === String(id)
   );
 
-  /* Invalid course ID */
   if (!course) {
     return (
       <main className="course-details-page course-not-found">
@@ -100,9 +57,6 @@ function CourseDetails() {
   return (
     <main className="course-details-page">
 
-      {/* =========================================
-          TOP NAVIGATION
-      ========================================= */}
       <div className="details-container">
         <button
           type="button"
@@ -115,15 +69,12 @@ function CourseDetails() {
       </div>
 
 
-      {/* =========================================
-          COURSE HERO
-      ========================================= */}
       <section className="course-details-hero">
         <div className="details-container">
 
           <div className="details-hero-grid">
 
-            {/* LEFT CONTENT */}
+         
             <div className="details-hero-content">
 
               <div className="details-category-row">
@@ -146,7 +97,7 @@ function CourseDetails() {
                 {course.description}
               </p>
 
-              {/* COURSE META */}
+    
               <div className="details-meta">
 
                 <div className="details-meta-item">
@@ -187,7 +138,7 @@ function CourseDetails() {
             </div>
 
 
-            {/* RIGHT VISUAL */}
+           
             <div className="details-visual">
 
               <div className="details-orbit orbit-large"></div>
@@ -227,9 +178,6 @@ function CourseDetails() {
       </section>
 
 
-      {/* =========================================
-          COURSE INFORMATION
-      ========================================= */}
       <section className="course-information">
         <div className="details-container">
 
@@ -263,7 +211,6 @@ function CourseDetails() {
             </div>
 
 
-            {/* RIGHT */}
             <div className="course-features">
 
               <div className="features-heading">
@@ -309,9 +256,6 @@ function CourseDetails() {
       </section>
 
 
-      {/* =========================================
-          ENROLL CTA
-      ========================================= */}
       <section className="course-enroll-section">
         <div className="details-container">
 

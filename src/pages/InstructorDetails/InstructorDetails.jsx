@@ -51,7 +51,6 @@ function InstructorDetails() {
   return (
     <main className="instructor-details-page">
 
-      {/* BACK */}
       <div className="instructor-details-container">
         <button
           type="button"
@@ -63,15 +62,12 @@ function InstructorDetails() {
         </button>
       </div>
 
-
-      {/* HERO */}
       <section className="instructor-details-hero">
 
         <div className="instructor-details-container">
 
           <div className="instructor-details-grid">
 
-            {/* IMAGE */}
             <div className="instructor-profile-image">
               <img
                 src={instructor.image}
@@ -84,8 +80,6 @@ function InstructorDetails() {
               </div>
             </div>
 
-
-            {/* CONTENT */}
             <div className="instructor-profile-content">
 
               <span className="profile-eyebrow">
@@ -125,8 +119,6 @@ function InstructorDetails() {
 
       </section>
 
-
-      {/* EXPERTISE */}
       <section className="instructor-expertise-section">
 
         <div className="instructor-details-container">
@@ -175,7 +167,6 @@ function InstructorDetails() {
       </section>
 
 
-      {/* CTA */}
       <section className="instructor-details-cta">
 
         <div className="instructor-details-container">

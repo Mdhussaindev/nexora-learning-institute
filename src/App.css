@@ -38,8 +38,6 @@
 }
 
 
-/* Prevent horizontal overflow on responsive screens */
-
 .app {
   width: 100%;
   max-width: 100%;

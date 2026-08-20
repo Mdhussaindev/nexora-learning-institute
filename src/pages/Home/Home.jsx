@@ -16,14 +16,10 @@ function Home() {
   return (
     <main className="home-page">
 
-      {/* =========================
-          HERO
-      ========================= */}
 
       <section className="hero-section">
         <div className="hero-container">
 
-          {/* LEFT CONTENT */}
           <div className="hero-content">
 
             <div className="hero-badge">
@@ -77,7 +73,7 @@ function Home() {
             </div>
           </div>
 
-          {/* RIGHT VISUAL */}
+          
           <div className="hero-visual">
 
             <div className="visual-orb orb-one"></div>
@@ -187,10 +183,6 @@ function Home() {
       </section>
 
 
-      {/* =========================
-          FEATURED COURSES
-      ========================= */}
-
       <section className="featured-courses-section">
 
         <div className="section-container">
@@ -230,9 +222,6 @@ function Home() {
 
           </div>
 
-
-          {/* COURSE CARDS */}
-
           <div className="courses-grid">
 
             {courses
@@ -249,11 +238,6 @@ function Home() {
         </div>
 
       </section>
-
-
-      {/* =========================
-          STATS
-      ========================= */}
 
       <section className="stats-section">
 
@@ -285,14 +269,10 @@ function Home() {
 
       </section>
 
-      {/* =========================
-    WHY CHOOSE NEXORA
-========================= */}
 
 <section className="why-section">
   <div className="why-container">
 
-    {/* SECTION HEADER */}
     <div className="why-header">
 
       <div>
@@ -316,10 +296,8 @@ function Home() {
     </div>
 
 
-    {/* MAIN CONTENT */}
     <div className="why-content">
 
-      {/* LEFT FEATURE PANEL */}
       <div className="why-feature-panel">
 
         <div className="feature-panel-top">
@@ -351,7 +329,6 @@ function Home() {
         </div>
 
 
-        {/* JOURNEY */}
         <div className="learning-journey">
 
           <div className="journey-line"></div>
@@ -402,10 +379,8 @@ function Home() {
       </div>
 
 
-      {/* RIGHT FEATURES */}
       <div className="why-features">
 
-        {/* FEATURE 1 */}
         <div className="why-card">
 
           <div className="why-card-icon">
@@ -431,8 +406,6 @@ function Home() {
 
         </div>
 
-
-        {/* FEATURE 2 */}
         <div className="why-card">
 
           <div className="why-card-icon">
@@ -458,8 +431,6 @@ function Home() {
 
         </div>
 
-
-        {/* FEATURE 3 */}
         <div className="why-card">
 
           <div className="why-card-icon">
@@ -486,7 +457,6 @@ function Home() {
         </div>
 
 
-        {/* FEATURE 4 */}
         <div className="why-card">
 
           <div className="why-card-icon">

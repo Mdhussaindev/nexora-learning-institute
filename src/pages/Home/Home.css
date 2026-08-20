@@ -1,14 +1,8 @@
-/* =========================
-   HOME
-========================= */
 
 .home-page {
   min-height: calc(100vh - 100px);
 }
 
-/* =========================
-   HERO
-========================= */
 
 .hero-section {
   position: relative;
@@ -39,9 +33,6 @@
   gap: 80px;
 }
 
-/* =========================
-   LEFT CONTENT
-========================= */
 
 .hero-content {
   position: relative;
@@ -113,9 +104,6 @@
   line-height: 1.75;
 }
 
-/* =========================
-   BUTTONS
-========================= */
 
 .hero-buttons {
   display: flex;
@@ -176,9 +164,6 @@
   box-shadow: 0 10px 22px rgba(15, 23, 42, 0.06);
 }
 
-/* =========================
-   TRUST
-========================= */
 
 .hero-trust {
   display: flex;
@@ -204,10 +189,6 @@
   font-size: 12px;
 }
 
-/* =========================
-   RIGHT VISUAL
-========================= */
-
 .hero-visual {
   position: relative;
 
@@ -218,7 +199,6 @@
   justify-content: center;
 }
 
-/* Background orbs */
 
 .visual-orb {
   position: absolute;
@@ -249,9 +229,6 @@
   filter: blur(12px);
 }
 
-/* =========================
-   DASHBOARD
-========================= */
 
 .learning-dashboard {
   position: relative;
@@ -283,8 +260,6 @@
     0 38px 75px rgba(15, 23, 42, 0.15),
     0 4px 12px rgba(15, 23, 42, 0.04);
 }
-
-/* Dashboard header */
 
 .dashboard-header {
   display: flex;
@@ -329,8 +304,6 @@
 
   font-size: 14px;
 }
-
-/* Featured course */
 
 .featured-course {
   display: flex;
@@ -405,8 +378,6 @@
   font-size: 7px;
 }
 
-/* Progress */
-
 .progress-track {
   width: 100%;
   height: 6px;
@@ -428,8 +399,6 @@
 
   background: #111827;
 }
-
-/* Stats */
 
 .dashboard-grid {
   display: grid;
@@ -491,7 +460,6 @@
   font-weight: 600;
 }
 
-/* Bottom */
 
 .dashboard-bottom {
   margin-top: 22px;
@@ -544,9 +512,6 @@
   background: #64748b;
 }
 
-/* =========================
-   FLOATING CARD
-========================= */
 
 .floating-learning-card {
   position: absolute;
@@ -607,9 +572,6 @@
   font-size: 10px;
 }
 
-/* =========================
-   STATS
-========================= */
 
 .stats-section {
   padding: 0 40px 60px;
@@ -680,9 +642,6 @@
   font-weight: 600;
 }
 
-/* =========================
-   ANIMATION
-========================= */
 
 @keyframes float-card {
   0%,
@@ -695,9 +654,6 @@
   }
 }
 
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width: 950px) {
   .hero-section {
@@ -744,9 +700,6 @@
   }
 }
 
-/* =========================
-   MOBILE
-========================= */
 
 @media (max-width: 600px) {
   .hero-section {
@@ -813,9 +766,6 @@
   }
 }
 
-/* =========================
-   FEATURED COURSES
-========================= */
 
 .featured-courses-section {
   padding: 95px 40px;
@@ -903,9 +853,6 @@
   gap: 11px;
 }
 
-/* =========================
-   COURSES GRID
-========================= */
 
 .courses-grid {
   display: grid;
@@ -915,9 +862,6 @@
   gap: 18px;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media (max-width: 900px) {
   .featured-courses-section {
@@ -955,10 +899,6 @@
 }
 
 
-/* =========================================
-   FINAL HERO SPACING FIX
-========================================= */
-
 .hero-section {
   padding-top: 28px !important;
   padding-bottom: 15px !important;
@@ -984,14 +924,11 @@
   padding-bottom: 75px !important;
 }
 
-/* Remove unwanted vertical spacing */
+
 .featured-courses-section .section-container {
   margin-top: 0 !important;
 }
 
-/* =========================================
-   DESKTOP
-========================================= */
 
 @media (min-width: 951px) {
   .hero-container {
@@ -1007,9 +944,6 @@
   }
 }
 
-/* =========================================
-   WHY CHOOSE NEXORA
-========================================= */
 
 .why-section {
   padding: 100px 40px;
@@ -1025,10 +959,6 @@
   margin: 0 auto;
 }
 
-
-/* =========================================
-   HEADER
-========================================= */
 
 .why-header {
   display: flex;
@@ -1071,10 +1001,6 @@
 }
 
 
-/* =========================================
-   MAIN CONTENT
-========================================= */
-
 .why-content {
   display: grid;
 
@@ -1083,10 +1009,6 @@
   gap: 18px;
 }
 
-
-/* =========================================
-   FEATURE PANEL
-========================================= */
 
 .why-feature-panel {
   position: relative;
@@ -1140,10 +1062,6 @@
 }
 
 
-/* =========================================
-   PANEL TOP
-========================================= */
-
 .feature-panel-top {
   position: relative;
   z-index: 2;
@@ -1182,10 +1100,6 @@
 }
 
 
-/* =========================================
-   PANEL CONTENT
-========================================= */
-
 .feature-panel-content {
   position: relative;
   z-index: 2;
@@ -1223,10 +1137,6 @@
   line-height: 1.8;
 }
 
-
-/* =========================================
-   LEARNING JOURNEY
-========================================= */
 
 .learning-journey {
   position: absolute;
@@ -1316,10 +1226,6 @@
 }
 
 
-/* =========================================
-   RIGHT FEATURE CARDS
-========================================= */
-
 .why-features {
   display: grid;
 
@@ -1362,10 +1268,6 @@
 }
 
 
-/* =========================================
-   CARD ICON
-========================================= */
-
 .why-card-icon {
   width: 43px;
   height: 43px;
@@ -1386,10 +1288,6 @@
     0 8px 18px rgba(15, 23, 42, 0.12);
 }
 
-
-/* =========================================
-   CARD CONTENT
-========================================= */
 
 .why-card-content {
   margin-top: 27px;
@@ -1428,10 +1326,6 @@
 }
 
 
-/* =========================================
-   ARROW
-========================================= */
-
 .why-card-arrow {
   position: absolute;
 
@@ -1453,10 +1347,6 @@
   transform: translateX(4px);
 }
 
-
-/* =========================================
-   RESPONSIVE
-========================================= */
 
 @media (max-width: 950px) {
 
@@ -1485,7 +1375,6 @@
   }
 
 }
-
 
 @media (max-width: 650px) {
 

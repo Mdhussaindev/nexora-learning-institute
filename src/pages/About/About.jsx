@@ -14,10 +14,6 @@ function About() {
   return (
     <main className="about-page">
 
-      {/* =========================
-          ABOUT HERO
-      ========================= */}
-
       <section className="about-hero">
         <div className="about-container">
 
@@ -60,8 +56,6 @@ function About() {
 
           </div>
 
-
-          {/* HERO VISUAL */}
 
           <div className="about-hero-visual">
 
@@ -114,10 +108,6 @@ function About() {
       </section>
 
 
-      {/* =========================
-          ABOUT INSTITUTE
-      ========================= */}
-
       <section className="about-introduction">
         <div className="about-container">
 
@@ -165,18 +155,13 @@ function About() {
       </section>
 
 
-      {/* =========================
-          MISSION & VISION
-      ========================= */}
-
       <section className="mission-section">
 
         <div className="about-container">
 
           <div className="mission-grid">
 
-            {/* MISSION */}
-
+           
             <div className="mission-card">
 
               <div className="mission-card-header">
@@ -203,8 +188,6 @@ function About() {
 
             </div>
 
-
-            {/* VISION */}
 
             <div className="mission-card vision-card">
 
@@ -237,11 +220,6 @@ function About() {
         </div>
 
       </section>
-
-
-      {/* =========================
-          STATISTICS
-      ========================= */}
 
       <section className="about-stats">
 
@@ -288,11 +266,6 @@ function About() {
         </div>
 
       </section>
-
-
-      {/* =========================
-          WHY STUDENTS CHOOSE US
-      ========================= */}
 
       <section className="student-choice-section">
 
@@ -377,7 +350,6 @@ function About() {
 
             </div>
 
-
             <div className="choice-item">
 
               <div className="choice-icon">
@@ -401,10 +373,6 @@ function About() {
 
       </section>
 
-
-      {/* =========================
-          CTA
-      ========================= */}
 
       <section className="about-cta">
 
